@@ -1,0 +1,5 @@
+{
+  "name": "PrioMed",
+  "description": "An application that allows users to find nearby healthcare facilities based on their symptoms, and enables establishments to update their wait times and occupancy status in real-time.",
+  "requestFramePermissions": []
+}

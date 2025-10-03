@@ -1,0 +1,78 @@
+
+import { Facility, CareType, OccupancyLevel } from './types';
+
+// Mock data for healthcare facilities in a dense area (e.g., São Paulo)
+export const MOCK_FACILITIES: Facility[] = [
+  {
+    id: 1,
+    name: 'Hospital das Clínicas',
+    address: 'Av. Dr. Enéas de Carvalho Aguiar, 255 - Cerqueira César, São Paulo',
+    coordinates: { latitude: -23.556, longitude: -46.669 },
+    waitTimeMinutes: 180,
+    occupancy: OccupancyLevel.Lotado,
+    type: CareType.Emergencia,
+  },
+  {
+    id: 2,
+    name: 'Pronto-Socorro Hospital Sírio-Libanês',
+    address: 'R. Adma Jafet, 91 - Bela Vista, São Paulo',
+    coordinates: { latitude: -23.550, longitude: -46.655 },
+    waitTimeMinutes: 95,
+    occupancy: OccupancyLevel.Alta,
+    type: CareType.Emergencia,
+  },
+   {
+    id: 3,
+    name: 'UPA Vergueiro',
+    address: 'R. Vergueiro, 1575 - Paraíso, São Paulo',
+    coordinates: { latitude: -23.568, longitude: -46.640 },
+    waitTimeMinutes: 75,
+    occupancy: OccupancyLevel.Moderada,
+    type: CareType.Urgencia,
+  },
+  {
+    id: 4,
+    name: 'Clínica Dr. Consulta - Paulista',
+    address: 'Av. Paulista, 2000 - Bela Vista, São Paulo',
+    coordinates: { latitude: -23.559, longitude: -46.660 },
+    waitTimeMinutes: 15,
+    occupancy: OccupancyLevel.Baixa,
+    type: CareType.Consulta,
+  },
+  {
+    id: 5,
+    name: 'Hospital Albert Einstein - Unidade Morumbi',
+    address: 'Av. Albert Einstein, 627 - Morumbi, São Paulo',
+    coordinates: { latitude: -23.602, longitude: -46.721 },
+    waitTimeMinutes: 120,
+    occupancy: OccupancyLevel.Alta,
+    type: CareType.Emergencia,
+  },
+  {
+    id: 6,
+    name: 'AMA/UBS Integrada Jardim Edite',
+    address: 'R. Charles Coulomb, 80 - Cidade Monções, São Paulo',
+    coordinates: { latitude: -23.609, longitude: -46.696 },
+    waitTimeMinutes: 45,
+    occupancy: OccupancyLevel.Moderada,
+    type: CareType.Urgencia,
+  },
+  {
+    id: 7,
+    name: 'Centro Médico Medial',
+    address: 'Av. Ibirapuera, 2907 - Moema, São Paulo',
+    coordinates: { latitude: -23.604, longitude: -46.668 },
+    waitTimeMinutes: 20,
+    occupancy: OccupancyLevel.Baixa,
+    type: CareType.Consulta,
+  },
+  {
+    id: 8,
+    name: 'Hospital Santa Catarina',
+    address: 'Av. Paulista, 200 - Bela Vista, São Paulo',
+    coordinates: { latitude: -23.566, longitude: -46.650 },
+    waitTimeMinutes: 80,
+    occupancy: OccupancyLevel.Moderada,
+    type: CareType.Emergencia,
+  },
+];
